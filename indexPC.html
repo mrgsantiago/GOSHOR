@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GOSHOR - фотостудия</title>
+    <link rel="stylesheet" href="css.css" />
+    <link rel="stylesheet" href="scss/fonts.css" />
+    <link rel="stylesheet" href="scss/footer.css" />
+  </head>
+
+  <body>
+    <div class="PC">
+      <div class="preloader">
+        <div class="preloader_content">
+          <div class="preloader_first"></div>
+          <div class="preloader_second"></div>
+          <div class="preloader_third"></div>
+        </div>
+      </div>
+
+      <header class="top-header" id="header">
+        <div class="conteiner">
+          <div class="top-line">
+            <div class="social">
+              <a href="https://vk.com/naviatk">
+                <img src="img/шапка/VK.png" alt="icon_vk" class="vk"
+              /></a>
+              <a href="https://vk.com/milanakerro">
+                <img src="img/шапка/inst.png" alt="icon_inst" class="inst"
+              /></a>
+              <a href="https://vk.com/milanakerro">
+                <img src="img/шапка/twitter.png" alt="icon_twit" class="twit"
+              /></a>
+            </div>
+            <div class="fixed-container">
+              <div>goshor@mail.ru</div>
+              <div class="phone-contener">+7-495-123-34-32</div>
+            </div>
+            <div class="button">
+              <button class="header-button-bron">Забронировать</button>
+              <div class="popup" id="clos">
+                <div class="popup__container">
+                  <div class="popup__wrapper">
+                    <div id="blablabla">
+                      <form
+                        action="/requestFine"
+                        autocomplete="off"
+                        method="POST"
+                      >
+                        <div class="logo">
+                          <span class="close">&times;</span>
+                          <span>GOSHOR.</span>
+                          <p>Фотостудия</p>
+                        </div>
+                        <hr />
+                        <article>
+                          Оставьте Ваши личные данные и мы свяжемся с Вами для
+                          решения интересующих вопросов
+                        </article>
+                        <div class="input">
+                          <input
+                            class="FIO"
+                            type="text"
+                            placeholder="ИМЯ ФАМИЛИЯ"
+                          />
+                          <br />
+                          <input type="tel" placeholder="ТЕЛЕФОН (+7)" />
+                          <input
+                            type="email"
+                            name="EMAIL"
+                            placeholder="EMAIL"
+                          />
+                        </div>
+                        <div class="location">
+                          <button class="save">ОТПРАВИТЬ</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <nav class="menu-main">
+        <div class="conteiner">
+          <div class="topnav" id="myTopnav">
+            <a href="#header" rel="m_PageScroll2id">Главная</a>
+            <a href="#our-work" rel="m_PageScroll2id">Портфолио</a>
+            <a href="#rom-all" rel="m_PageScroll2id">Пространства</a>
+            <a href="#equipment" rel="m_PageScroll2id">Оборудование</a>
+            <a id="menu" href="#" class="icon">&#9776;</a>
+          </div>
+          <div class="logo" id="text-logo">
+            <div class="GOSHOR">GOSHOR.</div>
+            <div class="descr">Фотостудия</div>
+            <div class="descr-animate"></div>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <div class="main-banner">
+          <img src="img/баннер и форма/банер.png" alt="" />
+          <div class="banner-text">
+            Эксклюзивное пространство<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;для
+            Ваших фотографий
+          </div>
+        </div>
+
+        <div class="conteiner">
+          <section id="about">
+            <div class="plus">
+              <h6 class="advant">Наши преимущества</h6>
+              <article>
+                Мы делаем то, что нам нравится, поэтому Вы всегда будете<br />чувствовать
+                себя в центре внимания.
+              </article>
+              <div class="cards">
+                <div class="card">
+                  <h5>ПРОСТРАНСТВО</h5>
+                  <p>
+                    Огромное съемочное пространство<br />
+                    в 210 квадратов. Великолепная акустика.
+                  </p>
+                </div>
+                <div class="card2">
+                  <h5>ОСВЕЩЕНИЕ</h5>
+                  <p>
+                    Большие окна, дающие великолепный <br />
+                    дневной жесткий и мягкий свет.
+                  </p>
+                </div>
+                <div class="card">
+                  <h5>СЕРВИС</h5>
+                  <p>
+                    Час гримёрки бесплатно, <br />
+                    большой ресепшн, чай и wi-fi.
+                  </p>
+                </div>
+                <div class="card2">
+                  <h5>ОБОРУДОВАНИЕ</h5>
+                  <p>
+                    Профессиональное осветительное <br />
+                    оборудование известных производителей.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="our-work">
+            <h6 class="work">
+              Наши работы
+            </h6>
+            <hr />
+            <div class="wrapper">
+              <div class="sl">
+                <div class="sl_slide">
+                  <img src="img/слайдер/slaid.png" alt="Картинка слайда 1" />
+                </div>
+                <div class="sl_slide">
+                  <img src="img/слайдер/slaid1.jpg" alt="Картинка слайда 2" />
+                </div>
+                <div class="sl_slide">
+                  <img src="img/слайдер/slaid2.jpg" alt="Картинка слайда 3" />
+                </div>
+                <div class="sl_slide">
+                  <img src="img/слайдер/slaid3.jpg" alt="Картинка слайда 4" />
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <section class="forma">
+          <div class="conteiner">
+            <img src="img/баннер и форма/форма.png" alt="fon" />
+            <div class="title">
+              Выходите <br />
+              за рамки <br />
+              камеры <br />
+              Вашего <br />
+              телефона
+            </div>
+            <form class="shape">
+              <h4 class="heading">GOSHOR.</h4>
+              <p>
+                Заполните форму и получите <br />
+                персональную 15% скидку <br />
+                на фотосессию
+              </p>
+              <input class="name" type="text" placeholder="ИМЯ" />
+              <input
+                class="name phone"
+                type="text"
+                placeholder="НОМЕР ТЕЛЕФОНА"
+              />
+              <input class="name mail" type="text" placeholder="EMAIL" />
+              <div class="button-wrap">
+                <input class="send" type="button" value="ОТПРАВИТЬ" />
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <section class="zone" id="rom-all">
+          <div class="conteiner">
+            <h6 class="work">Пространства</h6>
+            <hr />
+            <article class="text-description">
+              Раскрывайте свою индивидуальность и получайте <br />
+              вдохновение от творческого процесса съемки.
+            </article>
+            <div class="rooms">
+              <div class="room">
+                <div class="background">
+                  <div class="mytext">
+                    900 <br />
+                    руб/час
+                  </div>
+
+                  <img
+                    class="opacity"
+                    src="img/пространства/люмьер.png"
+                    alt="люмьер"
+                  />
+                </div>
+                <span class="zagolovok">LUMIER</span>
+                <hr />
+                <p>
+                  - солнечный свет <br />
+                  - стиль Ампир <br />
+                  - два окна <br />
+                  - подиум <br />
+                  - 85 кв.м.
+                </p>
+              </div>
+              <div class="room">
+                <div class="mytext mytext1">
+                  600 <br />
+                  руб/чаc
+                </div>
+                <img
+                  class="opacity"
+                  src="img/пространства/эдисон.png"
+                  alt="эдисон"
+                />
+                <span class="zagolovok">EDISON</span>
+                <hr />
+                <p>
+                  - живые растения <br />
+                  - гибкие зеркала <br />
+                  - окно-арка <br />
+                  - эко-стиль <br />
+                  - 70 кв.м.
+                </p>
+              </div>
+              <div class="room">
+                <div class="mytext mytext2">
+                  1100 <br />
+                  руб/час
+                </div>
+                <img
+                  class="opacity"
+                  src="img/пространства/баланс.png"
+                  alt="баланс"
+                />
+
+                <span class="zagolovok">BALANCE</span>
+                <hr />
+                <p>
+                  - спальная зона <br />
+                  - стиль Прованс <br />
+                  - тёплый пол <br />
+                  - библиотека <br />
+                  - 77 кв.м.
+                </p>
+              </div>
+              <div class="room1">
+                <div class="mytext mytext3">
+                  1500 <br />
+                  руб/час
+                </div>
+                <img
+                  class="opacity"
+                  src="img/пространства/лалиса.png"
+                  alt="лалиса"
+                />
+                <span class="zagolovok">LALISA</span>
+                <hr />
+                <p>
+                  - каминный портал <br />
+                  - выход на балкон <br />
+                  - лестница <br />
+                  - эркер <br />
+                  - 98 кв.м.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="equipments" id="equipment">
+          <div class="conteiner">
+            <h6 class="work">
+              Оборудование
+            </h6>
+            <hr />
+            <article class="text-description">
+              Солидный парк профессионального<br />осветительного оборудования
+            </article>
+            <div class="gallery-grid">
+              <div class="grid-item">
+                <div class="grid-item_inner">
+                  <img
+                    src="img/оборудование/Фото1.png"
+                    class="grid-item_img"
+                    alt=""
+                  />
+                  <div class="grid-item_title">
+                    <span
+                      >Окты <br />
+                      120 см VS 90 см</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="grid-item">
+                <div class="grid-item_inner">
+                  <img
+                    src="img/оборудование/Фото2.png"
+                    class="grid-item_img"
+                    alt=""
+                  />
+                  <div class="grid-item_title">
+                    <span>Портретные тарелки</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="grid-item">
+                <div class="grid-item_inner">
+                  <img
+                    src="img/оборудование/Фото3.png"
+                    class="grid-item_img"
+                    alt=""
+                  />
+                  <div class="grid-item_title">
+                    <span>Рефлекторы</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="grid-item">
+                <div class="grid-item_inner">
+                  <img
+                    src="img/оборудование/Фото4.png"
+                    class="grid-item_img"
+                    alt=""
+                  />
+                  <div class="grid-item_title">
+                    <span>Зонты на просвет</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="grid-item">
+                <div class="grid-item_inner">
+                  <img
+                    src="img/оборудование/Фото5.jpg"
+                    class="grid-item_img"
+                    alt=""
+                  />
+                  <div class="grid-item_title">
+                    <span>Шторки с сотами</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="grid-item">
+                <div class="grid-item_inner">
+                  <img
+                    src="img/оборудование/Фото6.png"
+                    class="grid-item_img"
+                    alt=""
+                  />
+                  <div class="grid-item_title">
+                    <span>Зонт на отражение</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section reviews">
+          <div class="conteiner">
+            <h6 class="work">Отзывы</h6>
+            <hr />
+            <article class="text-description">
+              Для нас ценно любое ваше мнение
+            </article>
+            <div class="reviews">
+              <div class="chit">
+                <img src="img/отзывы/катя.png" alt="отзыв1" /> <br />
+                <span>
+                  Катерина Михайлова
+                </span>
+                <p>
+                  Хорошая фотостудия, <br />
+                  красивые залы, <br />
+                  получаются интересные <br />
+                  и качественные фото <br />
+                  выложила фотки в инст <br />
+                  @mmetrin
+                </p>
+              </div>
+              <div class="chit">
+                <img src="img/отзывы/Никита.png" alt="отзыв2" /> <br />
+                <span>
+                  Никита Колготков
+                </span>
+                <p>
+                  Понравилась локация <br />
+                  съёмки и обслуживания, <br />
+                  а бесплатный wifi стал <br />
+                  приятным бонусом. <br />
+                  Кайфово провёл <br />
+                  время!!!
+                </p>
+              </div>
+              <div class="chit1">
+                <img src="img/отзывы/Рита.png" alt="отзыв3" /> <br />
+                <span>
+                  Маргарита Сантьяго
+                </span>
+                <p>
+                  Были неполадки со светом, <br />
+                  но эту проблему <br />
+                  быстро решили. <br />
+                  Одна из лучших <br />
+                  фотостудий <br />
+                  в которых я была.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="map" id="map">
+          <script
+            type="text/javascript"
+            charset="utf-8"
+            async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6d2b4377c545a295f5664459b7fd37a6137dc67872d74f8dca5ecac634d0e69a&amp;width=100%25&amp;height=460&amp;lang=ru_RU&amp;scroll=false"
+          ></script>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="conteiner">
+          <div class="footer-block">
+            <span class="footer_address"
+              >г. Новосибирск,<br />
+              ул. Советская 52, <br />1 этаж</span
+            >
+
+            <div class="footer_title">
+              <h6>GOSHOR</h6>
+              <div>Студия работает <span>круглосуточно</span></div>
+            </div>
+            <div class="fotter_contacts">
+              <a href="#" class="footer_phone">+7-495-123-34-32</a>
+              <a href="#" class="footer_mail">goshor@mail.ru</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="libs/PageScroll2id/PageScroll2id.min.js"></script>
+    </div>
+    <div class="mobilka">
+      <header class="top-header">
+        <div class="conteiner">
+          <div class="top-line">
+            <div class="contacts">
+              <a href="mailto:m-serebro@list.ru">
+                <img class="email" src="img/contacts/mail.png" alt="mail"
+              /></a>
+              <a href="tel:89529200445">
+                <img src="img/contacts/phone.png" alt="phone"
+              /></a>
+            </div>
+            <div class="button">
+              <button class="header-button-bron">Забронировать</button>
+              <div class="popup" id="clos">
+                <div class="popup__container">
+                  <div class="popup__wrapper">
+                    <div id="blablabla">
+                      <form
+                        action="/requestFine"
+                        autocomplete="off"
+                        method="POST"
+                      >
+                        <div class="logo">
+                          <span class="close">&times;</span>
+                          <span>GOSHOR.</span>
+                          <p>Фотостудия</p>
+                        </div>
+                        <hr />
+                        <article>
+                          Оставьте Ваши личные данные и мы свяжемся с Вами для
+                          решения интересующих вопросов
+                        </article>
+                        <div class="input">
+                          <input
+                            class="FIO"
+                            type="text"
+                            placeholder="ИМЯ ФАМИЛИЯ"
+                          />
+                          <br />
+                          <input type="tel" placeholder="ТЕЛЕФОН (+7)" />
+                          <input
+                            type="email"
+                            name="EMAIL"
+                            placeholder="EMAIL"
+                          />
+                        </div>
+                        <div class="location">
+                          <button class="save">ОТПРАВИТЬ</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="header">
+        <div class="conteiner2">
+          <div class="header_body" id="myTopnav">
+            <div class="header_logo" id="text-logo">
+              <div class="GOSHOR">GOSHOR.</div>
+              <div class="descr">Фотостудия</div>
+              <div class="descr-animate"></div>
+            </div>
+
+            <div class="header_burger">
+              <span> </span>
+            </div>
+
+            <nav class="header_menu">
+              <ul class="header_list">
+                <li>
+                  <a href="#about1" class="header_link">Главная</a>
+                </li>
+                <li>
+                  <a href="#our-work1" class="header_link">Портфолио</a>
+                </li>
+                <li>
+                  <a href="#prostranstva" class="header_link">Пространства</a>
+                </li>
+                <li>
+                  <a href="#plant" class="header_link">Оборудование</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <main>
+        <div class="main-banner">
+          <img src="img/bannerr/background.png" alt="fon" />
+          <div class="banner-text">
+            Эксклюзивное <br />
+            пространство<br />для Ваших <br />
+            фотографий
+          </div>
+        </div>
+
+        <div class="conteiner">
+          <section id="about1">
+            <div class="plus">
+              <h6 class="advant">Наши преимущества</h6>
+              <article>
+                Мы делаем то, что нам нравится, поэтому Вы всегда <br />
+                будете чувствовать себя в центре внимания.
+              </article>
+              <div class="cards">
+                <div class="card">
+                  <h5>ПРОСТРАНСТВО</h5>
+                  <p>
+                    Огромное съемочное пространство<br />
+                    в 210 квадратов. Великолепная акустика.
+                  </p>
+                </div>
+                <div class="card2">
+                  <h5>ОСВЕЩЕНИЕ</h5>
+                  <p>
+                    Большие окна, дающие великолепный <br />
+                    дневной жесткий и мягкий свет.
+                  </p>
+                </div>
+                <div class="card">
+                  <h5>СЕРВИС</h5>
+                  <p>
+                    Час гримёрки бесплатно, <br />
+                    большой ресепшн, чай и wi-fi.
+                  </p>
+                </div>
+                <div class="card2">
+                  <h5>ОБОРУДОВАНИЕ</h5>
+                  <p>
+                    Профессиональное осветительное <br />
+                    оборудование известных производителей.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <section id="our-work1">
+          <h6>
+            Наши работы
+          </h6>
+          <hr />
+          <div class="wrapper">
+            <div class="slider">
+              <div class="sl_slide">
+                <img src="img/work/slaid.png" alt="Картинка слайда 1" />
+              </div>
+              <div class="sl_slide">
+                <img src="img/work/slaid1.jpg" alt="Картинка слайда 2" />
+              </div>
+              <div class="sl_slide">
+                <img src="img/work/slaid2.jpg" alt="Картинка слайда 3" />
+              </div>
+              <div class="sl_slide">
+                <img src="img/work/slaid3.jpg" alt="Картинка слайда 4" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="forma">
+          <img src="img/forma/background1.png" alt="fon" />
+          <div class="god">
+            <form class="shape">
+              <h4 class="heading">GOSHOR.</h4>
+              <p>
+                Заполните форму <br />
+                и получите персональную <br />
+                15% скидку <br />
+                на фотосессию
+              </p>
+
+              <input class="name" type="text" placeholder="ИМЯ" />
+              <input class="name mail" type="text" placeholder="EMAIL" />
+              <div class="button-wrap">
+                <input class="send" type="button" value="ОТПРАВИТЬ" />
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <div class="conteiner">
+          <section id="prostranstva">
+            <div class="area">
+              <h6>
+                Пространства
+              </h6>
+              <hr />
+              <article>
+                Раскрывайте свою индивидуальность и получайте <br />
+                вдохновение от творческого процесса съемки.
+              </article>
+              <div class="cards">
+                <h4>LUMIER</h4>
+                <hr />
+                <div class="card">
+                  <p class="nad">900 руб/час</p>
+                  <div class="position">
+                    <p class="right">
+                      солнечный свет <br />
+                      подиум
+                    </p>
+                    <img class="one" src="img/area/lumier.png" alt="lumier" />
+                    <p class="left">
+                      стиль Ампир <br />
+                      два окна
+                    </p>
+                  </div>
+                </div>
+                <h4>EDISON</h4>
+                <hr />
+                <div class="card">
+                  <p class="nad">600 руб/час</p>
+                  <div class="position two">
+                    <p class="right">
+                      гибкие зеркала <br />
+                      окно-арка
+                    </p>
+                    <img class="two" src="img/area/edison.png" alt="edison" />
+                    <p class="loc">
+                      живые растения <br />
+                      эко-стиль
+                    </p>
+                  </div>
+                </div>
+                <h4>BALANCE</h4>
+                <hr />
+                <div class="card">
+                  <p class="nad">1100 руб/час</p>
+                  <div class="position">
+                    <p class="right">
+                      стиль Прованс <br />
+                      тёплый пол
+                    </p>
+                    <img
+                      class="three"
+                      src="img/area/balance.png"
+                      alt="balance"
+                    />
+                    <p class="left">
+                      спальная зона <br />
+                      библиотека
+                    </p>
+                  </div>
+                </div>
+                <h4>LALISA</h4>
+                <hr />
+                <div class="card">
+                  <p class="nad">1500 руб/час</p>
+                  <div class="position">
+                    <p class="right">
+                      выход на балкон <br />
+                      лестница
+                    </p>
+                    <img class="four" src="img/area/lalisa.png" alt="lalisa" />
+                    <p class="lef">
+                      каминный портал <br />
+                      эркер
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <section id="plant">
+          <h6>
+            Оборудование
+          </h6>
+          <hr />
+          <article>
+            Солидный парк профессионального <br />
+            осветительного оборудования
+          </article>
+          <div class="wrapper">
+            <div class="slider">
+              <div class="sl_slide">
+                <img src="img/plant/1.jpg" alt="Картинка слайда 1" />
+              </div>
+              <div class="sl_slide">
+                <img src="img/plant/2.jpg" alt="Картинка слайда 2" />
+              </div>
+              <div class="sl_slide">
+                <img src="img/plant/3.jpg" alt="Картинка слайда 3" />
+              </div>
+              <div class="sl_slide">
+                <img src="img/plant/4.jpg" alt="Картинка слайда 4" />
+              </div>
+              <div class="sl_slide">
+                <img src="img/plant/5.jpg" alt="Картинка слайда 5" />
+              </div>
+              <div class="sl_slide">
+                <img src="img/plant/6.jpg" alt="Картинка слайда 6" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="conteiner">
+          <section class="reviews">
+            <h6>
+              Отзывы
+            </h6>
+            <hr />
+            <article>Для нас ценно любое Ваше мнение</article>
+            <div class="wrapper">
+              <div class="slow">
+                <div class="sl_slide">
+                  <img src="img/reviews/катя.png" alt="Картинка слайда 1" />
+                  <h5>Катя Михайлова <br /></h5>
+                  <p>
+                    Очень хорошая фотостудия, <br />
+                    красивые залы, <br />
+                    получаются очень интересные <br />
+                    и качественные фото <br />
+                    выложила фотки в инст <br />
+                    @mmetrin
+                  </p>
+                </div>
+                <div class="sl_slide">
+                  <img src="img/reviews/Никита.png" alt="Картинка слайда 1" />
+                  <h5>Никита Колготков<br /></h5>
+                  <p>
+                    Понравилась локация <br />
+                    съёмки и обслуживания, <br />
+                    а бесплатный wifi стал <br />
+                    приятным бонусом. <br />
+                    Кайфово провёл <br />
+                    время!!!
+                  </p>
+                </div>
+                <div class="sl_slide">
+                  <img src="img/reviews/Рита.png" alt="Картинка слайда 1" />
+                  <h5>Маргарита Сантьяго <br /></h5>
+                  <p>
+                    Были неполадки со светом, <br />
+                    но эту проблему <br />
+                    быстро решили. <br />
+                    Одна из лучших <br />
+                    фотостудий <br />
+                    в которых я была.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="conteiner">
+          <div class="footer-block">
+            <span class="footer_address"
+              >г. Новосибирск,<br />
+              ул. Советская 52, <br />1 этаж</span
+            >
+
+            <div class="footer_title">
+              <h6>GOSHOR</h6>
+              <div>Студия работает <span>круглосуточно</span></div>
+            </div>
+            <div class="fotter_contacts">
+              <a href="#" class="footer_phone">+7-495-123-34-32</a>
+              <a href="#" class="footer_mail">goshor@mail.ru</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="java/slick.min.js"></script>
+    <script src="java/js.js"></script>
+    <script>
+      function preloader() {
+        $(() => {
+          setTimeout(() => {
+            let p = $(".preloader");
+
+            p.css("opacity", 0);
+
+            setTimeout(() => p.remove(), parseInt(p.css("--duration")) * 1000);
+          }, 1000);
+        });
+      }
+    </script>
+    <script></script>
+  </body>
+</html>

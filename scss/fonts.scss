@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+/* Адаптивные шрифты*/
+$maxWidth: 1000;
+
+@mixin adaptiv-font($pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $maxWidth: $maxWidth - 320;
+  font-size: calc(
+    #{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth})
+  );
+}
+
+.PC .fixed-container {
+  @include adaptiv-font(16.5, 14);
+}
+.PC .phone-contener {
+  @include adaptiv-font(17.9, 15);
+}
+.PC .topnav,
+.logo,
+.footer_title {
+  @include adaptiv-font(21, 18);
+}
+.PC .header-button-bron,
+.grid-item_title {
+  @include adaptiv-font(19.2, 17);
+}
+.PC .GOSHOR {
+  @include adaptiv-font(38.5, 34);
+}
+.PC .banner-text {
+  @include adaptiv-font(24, 14);
+}
+.advant,
+.work {
+  @include adaptiv-font(25.5, 18);
+}
+.PC .plus article,
+.cards h5 {
+  @include adaptiv-font(18.7, 16);
+}
+.PC .cards p {
+  @include adaptiv-font(16.81, 16);
+}
+.PC .shape p {
+  @include adaptiv-font(16.8, 16);
+}
+.PC .heading {
+  @include adaptiv-font(38.9, 34);
+}
+.PC .name {
+  @include adaptiv-font(17, 15);
+}
+.PC .text-description {
+  @include adaptiv-font(18.5, 16);
+}
+.PC .send {
+  @include adaptiv-font(23, 18);
+}
+.PC .footer_address {
+  @include adaptiv-font(20.5, 18);
+}
+.PC .footer_title h6 {
+  @include adaptiv-font(28.5, 20);
+}
+.PC .fotter_contacts {
+  @include adaptiv-font(19.2, 17);
+}

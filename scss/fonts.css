@@ -1,0 +1,77 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Jura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* Адаптивные шрифты*/
+.PC .fixed-container {
+  font-size: calc(14px + 2.5 * ((100vw - 320px) / 680));
+}
+
+.PC .phone-contener {
+  font-size: calc(15px + 2.9 * ((100vw - 320px) / 680));
+}
+
+.PC .topnav,
+.logo,
+.footer_title {
+  font-size: calc(18px + 3 * ((100vw - 320px) / 680));
+}
+
+.PC .header-button-bron,
+.grid-item_title {
+  font-size: calc(17px + 2.2 * ((100vw - 320px) / 680));
+}
+
+.PC .GOSHOR {
+  font-size: calc(34px + 4.5 * ((100vw - 320px) / 680));
+}
+
+.PC .banner-text {
+  font-size: calc(14px + 10 * ((100vw - 320px) / 680));
+}
+
+.PC .advant,
+.work {
+  font-size: calc(18px + 7.5 * ((100vw - 320px) / 680));
+}
+
+.PC .plus article,
+.cards h5 {
+  font-size: calc(16px + 2.7 * ((100vw - 320px) / 680));
+}
+
+.PC .cards p {
+  font-size: calc(16px + 0.81 * ((100vw - 320px) / 680));
+}
+
+/* .shape p {
+  font-size: calc(16px + 0.8 * ((100vw - 320px) / 680));
+} */
+
+/* .heading {
+  font-size: calc(34px + 4.9 * ((100vw - 320px) / 680));
+} */
+
+.PC .name {
+  font-size: calc(15px + 2 * ((100vw - 320px) / 680));
+}
+
+.PC .text-description {
+  font-size: calc(16px + 2.5 * ((100vw - 320px) / 680));
+}
+
+.PC .send {
+  font-size: calc(18px + 5 * ((100vw - 320px) / 680));
+}
+
+.PC .footer_address {
+  font-size: calc(18px + 2.5 * ((100vw - 320px) / 680));
+}
+
+.PC .footer_title h6 {
+  font-size: calc(20px + 8.5 * ((100vw - 320px) / 680));
+}
+
+.PC .fotter_contacts {
+  font-size: calc(17px + 2.2 * ((100vw - 320px) / 680));
+}
+/*# sourceMappingURL=fonts.css.map */

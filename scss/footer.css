@@ -1,0 +1,43 @@
+.PC .footer {
+  padding: 27px 0;
+  background-color: #19191b;
+  color: #ffffff;
+}
+
+.PC .footer-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.PC .footer a {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: default;
+}
+
+.footer_contacts {
+  text-align: right;
+}
+
+.PC .footer_phone {
+  display: block;
+}
+
+.PC .footer_mail {
+  padding-top: 5px;
+  display: block;
+}
+
+.PC .footer_title span {
+  color: #ecb93d;
+}
+
+.PC .footer h6 {
+  padding-left: 69px;
+  margin: 0;
+}
+/*# sourceMappingURL=footer.css.map */
